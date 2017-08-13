@@ -103,3 +103,10 @@ and
 	i = 20
 	b = 20
 	k = 100
+	
+### Longer test time
+It seems that there is a drift in the force trace. Maybe a longer test trade and repeated sequences of load/unload (to see if it the forde trace returns to its original position or it is continuously drifting).
+It is important to know if this drift is:
+Mechanical (it is unlikely that the Al goes under plastic deformation for these loads, but if this is the case, teh mechanical design shoudl be improved)
+Strain gauges
+Analog amplification and filtering. Strain gauges need an offset compensation, an amplifier and also a filter. There are possible sources of drift in any of them.
